@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+  <title>Febri Sihotang — Portfolio</title>
+</head>
+<body>
+
+  <!-- Cursor -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+
+  <!-- Header -->
+  <header id="header">
+    <div class="header-inner">
+      <div class="brand">
+        <a href="#hero">
+          <span class="brand-f">F</span><span class="brand-name">ebri</span>
+          <span class="brand-dot">·</span>
+          <span class="brand-s">S</span><span class="brand-name">ihotang</span>
+        </a>
+      </div>
+      <nav class="nav-list">
+        <div class="hamburger" id="hamburger">
+          <span></span><span></span><span></span>
+        </div>
+        <ul id="nav-menu">
+          <li><a href="#hero" data-after="Home">Home</a></li>
+          <li><a href="#services" data-after="Experience">Experience</a></li>
+          <li><a href="#projects" data-after="Projects">Projects</a></li>
+          <li><a href="#about" data-after="About">About</a></li>
+          <li><a href="#contact" data-after="Contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-content">
+      <p class="hero-greeting reveal-up" style="animation-delay:0.2s"></p>
+      <h1 class="hero-title">
+        <span class="line reveal-up" style="animation-delay:0.5s">Hello, I'm</span>
+        <span class="line hero-name reveal-up" style="animation-delay:0.8s">Febri Sihotang</span>
+      </h1>
+      <p class="hero-sub reveal-up" style="animation-delay:1.1s">
+        Electrical Engineering Student &amp; <span class="typed-text"></span><span class="cursor-blink">|</span>
+      </p>
+      <div class="hero-cta reveal-up" style="animation-delay:1.4s">
+        <a href="https://drive.google.com/file/d/1V6-XPo51W0HfEgwDJJ4TX28sNhP-xbAf/view?usp=sharing" target="_blank" class="btn-primary">
+          <span>View My Resume</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+        </a>
+        <a href="#projects" class="btn-ghost">See Projects</a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>scroll</span>
+    </div>
+  </section>
+  <!-- End Hero Section -->
+
+  <!-- Experience Section -->
+  <section id="services">
+    <div class="section-container">
+      <div class="section-head reveal-up">
+        <p class="section-label">Background</p>
+        <h2 class="section-title">Exper<span>ience</span></h2>
+        <p class="section-desc">Leadership, teamwork, and professional development across academic and non-academic fields.</p>
+      </div>
+      <div class="exp-grid">
+        <div class="exp-card reveal-up" style="--i:0">
+          <div class="exp-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <span class="exp-year">2026</span>
+          <h3>Session Coordinator and Participant, International Conference of Genomics (ICG) 20</h3>
+          <p>Organize and ensure that each speaker's speech starts, runs, and ends according to the specified time.</p>
+        </div>
+        <div class="exp-card reveal-up" style="--i:1">
+          <div class="exp-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <span class="exp-year">2025</span>
+          <h3>Committee & Participant, GLEON All Hands Meeting</h3>
+          <p>Served as organizer and participant at the Global Lake Ecological Observatory Network meeting, contributing to global environmental research discussions.</p>
+        </div>
+        <div class="exp-card reveal-up" style="--i:0">
+          <div class="exp-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <span class="exp-year">2024</span>
+          <h3>Indonesia-China Youth Exchange Program (ICYEP)</h3>
+          <p>Represented Indonesia in ICYEP 2024, fostering cross-cultural understanding, diplomacy, and collaboration between Indonesian and Chinese youth.</p>
+        </div>
+        <div class="exp-card reveal-up" style="--i:2">
+          <div class="exp-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+          </div>
+          <span class="exp-year">2023</span>
+          <h3>Chairperson, Cinta Almamater Program – IT Del</h3>
+          <p>Led and organized initiatives to strengthen the bond between students and institution through academic and non-academic activities.</p>
+        </div>
+        <div class="exp-card reveal-up" style="--i:3">
+          <div class="exp-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          </div>
+          <span class="exp-year">2023</span>
+          <h3>IDG 2023 Event Committee – IT Del</h3>
+          <p>Served as Program Division Member for major events including Inauguration, Dies Natalis, and Graduation, ensuring smooth execution.</p>
+        </div>
+        <div class="exp-card reveal-up" style="--i:4">
+          <div class="exp-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.36 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.27 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </div>
+          <span class="exp-year">2024</span>
+          <h3>Matriculation Assistant – IT Del</h3>
+          <p>Assisted new students in their transition to university life by providing academic and non-academic guidance and orientation.</p>
+        </div>
+        <div class="exp-card reveal-up" style="--i:5">
+          <div class="exp-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          </div>
+          <span class="exp-year">Ongoing</span>
+          <h3>Tutorial Assistant – IT Del</h3>
+          <p>Provided academic support and facilitated learning for students across mathematics and physics courses.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Experience Section -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="section-container">
+      <div class="section-head reveal-up">
+        <p class="section-label">Portfolio</p>
+        <h2 class="section-title">Recent <span>Projects</span></h2>
+      </div>
+      <div class="projects-list">
+        <div class="project-card reveal-up">
+          <div class="project-img-wrap">
+            <img src="./img/workflow.png" alt="IoT Body Monitoring">
+            <div class="project-img-overlay">
+              <span class="project-tag">Deep Learning</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Benchmarking Deep Learning Models for Nucleus Segmentation in Stereo-seq H&E Images: From Baseline Performance to Domain Adaptation</h3>
+            <p class="project-tech">Deep Learning, Spatial-Transcriptomics, Benchmarking</p>
+            <p></p>
+          </div>
+        </div>
+        <div class="project-card reveal-up">
+          <div class="project-img-wrap">
+            <img src="./img/esp32.jpg" alt="IoT Body Monitoring">
+            <div class="project-img-overlay">
+              <span class="project-tag">IoT</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>IoT-Based Body Temperature &amp; Heart Rate Monitoring</h3>
+            <p class="project-tech">DHT11 &amp; MAX30100 · Arduino</p>
+            <p></p>
+          </div>
+        </div>
+        <div class="project-card reveal-up" style="--i:1">
+          <div class="project-img-wrap">
+            <img src="./img/FPGA.png" alt="Digital Scoreboard FPGA">
+            <div class="project-img-overlay">
+              <span class="project-tag">FPGA</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Digital Scoreboard</h3>
+            <p class="project-tech">FPGA Altera DE1 Cyclone II</p>
+            <p></p>
+          </div>
+        </div>
+        <div class="project-card reveal-up" style="--i:2">
+          <div class="project-img-wrap">
+            <img src="./img/UNOARDU.jpg" alt="Automatic Lighting System">
+            <div class="project-img-overlay">
+              <span class="project-tag">Arduino</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Automatic Lighting System</h3>
+            <p class="project-tech">Arduino · HC-SR04 Ultrasonic Sensor</p>
+            <p></p>
+          </div>
+        </div>
+        <div class="project-card reveal-up" style="--i:3">
+          <div class="project-img-wrap">
+            <img src="./img/pplcounter-1.jpg" alt="Passenger Counting System">
+            <div class="project-img-overlay">
+              <span class="project-tag">Embedded</span>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3>Passenger Counting System on Boats</h3>
+            <p class="project-tech">ATmega8535 · HC-SR04 Sensor</p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="section-container about-wrap">
+      <div class="about-img-col reveal-left">
+        <div class="about-img-frame">
+          <img src="./img/Non-FormMid.png" alt="Febri Sihotang">
+          <div class="about-img-deco"></div>
+        </div>
+      </div>
+      <div class="about-text-col reveal-right">
+        <p class="section-label">Who I Am</p>
+        <h2 class="section-title left">About <span>me</span></h2>
+        <p class="about-role">⚡ Electrical Engineering Student</p>
+        <p class="about-desc">Hello! I'm <strong>Febri Sihotang</strong>, a passionate student pursuing a degree in Electrical Engineering at Institut Teknologi Del. With a keen interest in technology and problem-solving, I dive into projects involving programming, hardware development, and system design.</p>
+        <p class="about-desc">I believe in blending theory with hands-on learning, and I enjoy applying my skills to real-world challenges — from IoT systems to FPGA design.</p>
+        <div class="about-skills">
+          <span>Arduino</span><span>FPGA</span><span>IoT</span><span>Embedded Systems</span><span>C/C++</span><span>Python</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="section-container">
+      <div class="section-head reveal-up">
+        <p class="section-label">Get In Touch</p>
+        <h2 class="section-title">Contact <span>Info</span></h2>
+        <p class="section-desc">Feel free to reach out through any of the platforms below.</p>
+      </div>
+      <div class="contact-grid">
+        <a href="https://wa.me/6282273547498" target="_blank" class="contact-card whatsapp-card reveal-up">
+          <div class="contact-icon-wrap">
+            <img src="./img/WhatsappLogo.jpg" alt="WhatsApp" class="contact-logo">
+          </div>
+          <div class="contact-text">
+            <h3>WhatsApp</h3>
+            <p>+62 822-7354-7498</p>
+          </div>
+          <svg class="contact-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+        </a>
+        <a href="mailto:shtgfebri@gmail.com" class="contact-card email-card reveal-up" style="--i:1">
+          <div class="contact-icon-wrap">
+            <img src="./img/EmailLogo.jpg" alt="Email" class="contact-logo">
+          </div>
+          <div class="contact-text">
+            <h3>Email</h3>
+            <p>shtgfebri@gmail.com</p>
+          </div>
+          <svg class="contact-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+        </a>
+        <a href="https://www.instagram.com/febrisihotang__?igsh=MXBzb2R6Z256eG1hdw==" target="_blank" class="contact-card insta-card reveal-up" style="--i:2">
+          <div class="contact-icon-wrap">
+            <img src="./img/InstaLogo.jpg" alt="Instagram" class="contact-logo">
+          </div>
+          <div class="contact-text">
+            <h3>Instagram</h3>
+            <p>@febrisihotang__</p>
+          </div>
+          <svg class="contact-arrow" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="brand-f">F</span><span>ebri</span>
+        <span class="brand-dot">·</span>
+        <span class="brand-s">S</span><span>ihotang</span>
+      </div>
+      <p class="footer-role">Electrical Engineering Student — Institut Teknologi Del</p>
+      <p class="footer-copy">© 2026 Febri Sihotang. All rights reserved.</p>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <script src="./app.js"></script>
+</body>
+</html>
